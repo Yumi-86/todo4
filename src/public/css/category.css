@@ -1,0 +1,127 @@
+.category__alert--success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: #badbcc;
+    padding: 10px 30px;
+}
+
+.category__alert--danger {
+    background-color: #f8d7da;
+    color: #842029;
+    border: #f5c2c7;
+    padding: 10px 0px;
+}
+
+.category__alert--danger ul {
+    margin: 0;
+}
+
+.category__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 30px 60px;
+}
+
+.create-form {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-form__item {
+    width: 70%;
+}
+
+.create-form__item-input {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    height: 50px;
+}
+
+.create-form__button {
+    width: 150px;
+}
+
+.create-form__button-submit {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.category-table {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.category-table__inner {
+    width: 100%;
+}
+
+.category-table__header {
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.category-table__content {
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+}
+
+.category-table__content:first-of-type {
+    width: 90%;
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-form__item {
+    width: 70%;
+}
+
+.update-form__item-input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.update-form__button {
+    width: 50px;
+    text-align: center;
+}
+
+.update-form__button-submit {
+    width: 100%;
+    padding: 5px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-form__button {
+    width: 50px;
+    text-align: center;
+}
+
+.delete-form__button-submit {
+    width: 100%;
+    padding: 5px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
